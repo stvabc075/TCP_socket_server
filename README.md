@@ -1,7 +1,6 @@
 
 ### Project Overview
-This project comprises a network-based quiz application utilizing a client-server architecture. The server (`server.c`) and client (`client.c`) communicate over a network to facilitate a quiz session based on some basic unix and networking prinicples. The project includes a header file (`header.h`) which appears to contain quiz questions and possibly shared definitions or functions.
-
+This project comprises a network-based quiz application utilizing a client-server architecture. The server (`server.c`) and client (`client.c`) communicate over a network to facilitate a quiz session based on some basic unix and networking prinicples.
 
 ### Building and Running
 #### Prerequisites
@@ -24,11 +23,6 @@ gcc -o client client.c
    ```bash
    ./client <IP address of server> <port number>
    ```
-
-### Features
-- Network-based quiz communication.
-- Multiple choice or Y/N questions.
-- Color-coded text output for enhanced user experience.
 
 ### Notes
 - Ensure the server is running before starting the client.
